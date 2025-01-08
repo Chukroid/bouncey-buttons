@@ -1,5 +1,5 @@
 # Bouncey Buttons
-![](https://imgur.com/a/avsR1PN)
+![](BounceyButtons.png)
 
 <center>BounceyButtons is a lightweight and customizable module for animating UI button interactions in Roblox. Designed for simplicity and versatility, it adds smooth scaling animations to your buttons, enhancing the user experience across all platforms.</center>
 
