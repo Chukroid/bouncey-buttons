@@ -89,6 +89,19 @@ Provide the sound instance via the ```options.clickSound``` parameter (e.g., gam
 - If your interactive element is not a TextButton or ImageButton (e.g., a Frame or ImageLabel), you can animate it by providing the invisible button (e.g., a TextButton or ImageButton) via the ```options.button parameter```.
 
 
+## Available options
+
+| option | Description |
+| --- | --- |
+| ```option.button``` | ```TextButton/ImageButton``` that the MouseButton1Click/Activated event is connected to |
+| ```option.uiscale``` | ```UIScale``` object inside the button |
+| ```option.hoverfunction``` | ```function``` that will run when the mouse hovers over the button |
+| ```option.unhoverfunction``` | ```function``` that will run when the mouse leaves the button |
+| ```option.clickfunction``` | ```function``` that will run when the button is clicked, use only for animating since it does not yeild |
+| ```option.maxsize``` | ```Number```. The maximum size that the UIScale object will scale to |
+| ```option.minsize``` | ```Number```. The minimum size that the uiscale object will scale to |
+| ```option.soundless``` | ```Boolean```. Indicates that no sounds should be played |
+
 
 ## Example Usage
 
@@ -139,6 +152,6 @@ end,{
 ## Why Use the BounceyButtons Module
 - **Write Less Code**: Simplifies button animation setup, letting you focus on your game logic.
 - **Focus on Functionality**: Concentrate on what your button should do without worrying about animation details.
-- **Lightweight and Flexible**: Optimized for performance and easy to modify to suit your needs.
+- **Lightweight and Flexible**: Optimized for performance and easy to modify to suit your needs since it is open-source.
 
 #### This is my first ever public release module! 🎉 If you have any suggestions to make it better or improvements you'd like to see, please feel free to let me know. I'm also open to pull requests, so don’t hesitate to contribute! 😊
